@@ -1,0 +1,30 @@
+{
+  "name": "cli-app-node",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Serg Grish",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "nanoid": "^3.1.28",
+    "yards": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serg-grish/cli-app-node.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/serg-grish/cli-app-node/issues"
+  },
+  "homepage": "https://github.com/serg-grish/cli-app-node#readme"
+}
